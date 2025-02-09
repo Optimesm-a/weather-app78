@@ -1,20 +1,26 @@
 from flask import Flask, render_template, request
 import requests
+import os
+from dotenv import load_dotenv
+
+# .env dosyasını yükle
+load_dotenv()
 
 app = Flask(__name__)
-
 
 @app.route('/')
 def home():
     return render_template('index.html')
 
-
 @app.route('/weather', methods=['POST'])
 def weather():
     city = request.form['city']
-    api_key = '31f68c4043b01c7129698874d321e9c6'  # Burada, hava durumu API anahtarınızı kullanmalısınız
-    url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
+    api_key = os.getenv('WEATHER_API_KEY')  # API anahtarını .env dosyasından al
 
+    if not api_key:
+        return render_template('index.html', error="API key is missing.")
+
+    url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     response = requests.get(url)
     data = response.json()
 
@@ -31,7 +37,7 @@ def weather():
 
     return render_template('weather.html', weather=weather_data)
 
-
+if __name__ == '__main__':
     app.run(debug=True)
 
 
