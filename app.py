@@ -3,7 +3,7 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# .env dosyasını yükle
+#.env dosyasını yüklemek için olan kısım
 load_dotenv()
 
 app = Flask(__name__)
@@ -15,7 +15,7 @@ def home():
 @app.route('/weather', methods=['POST'])
 def weather():
     city = request.form['city']
-    api_key = os.getenv('WEATHER_API_KEY')  # API anahtarını .env dosyasından al
+    api_key = os.getenv('WEATHER_API_KEY')  #API anahtarını .env dosyasından almayı anlatan kod
 
     if not api_key:
         return render_template('index.html', error="API key is missing.")

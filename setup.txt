@@ -1,0 +1,31 @@
+# 📌 Python Flask Hava Durumu Uygulaması - Kurulum Rehberi
+
+## 1️⃣ Gerekli Kütüphaneleri Yükleme
+Terminal veya CMD’de aşağıdaki komutu çalıştırın:
+
+
+pip install -r requirements.txt
+
+Bu komut, **proje için gerekli tüm paketleri yükleyecektir.**
+---
+
+## 2️⃣ `.env` Dosyasını Oluşturma
+Proje klasöründe `.env` adında bir dosya oluşturun ve API anahtarınızı ekleyin:
+
+WEATHER_API_KEY="""buraya_senin_api_anahtarın"""
+
+Bu dosya, hava durumu API'sini kullanmak için gereklidir.
+
+---
+
+## 3️⃣ Uygulamayı Çalıştırma
+Uygulamayı çalıştırmak için terminalde şu komutu kullanın:
+
+python app.py / modül olarak çalıştırılmak istenilirse yada komut çalışmaz ise python -m flask run
+
+
+
+uygulama çalıştırıldıktan sonra terminali kapayıp tekrar kod yazılır hale getirmek için ctrl + c tuşlarıyla kodun çalışmasını durdurabilirsiniz.
+
+
+

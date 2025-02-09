@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="1. kayıt">
+    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="2. kayıt(api şifresi gizlendi)">
+      <change afterPath="$PROJECT_DIR$/setup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -82,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739035693425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2. kayıt(api şifresi gizlendi)">
+      <option name="closed" value="true" />
+      <created>1739098688027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739098688027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. kayıt" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. kayıt" />
+    <MESSAGE value="2. kayıt(api şifresi gizlendi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. kayıt(api şifresi gizlendi)" />
   </component>
 </project>
