@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="2. kayıt(api şifresi gizlendi)">
-      <change afterPath="$PROJECT_DIR$/setup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="3.kayıt requiremets.txt ve setup.txt eklendi">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739098688027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3.kayıt requiremets.txt ve setup.txt eklendi">
+      <option name="closed" value="true" />
+      <created>1739099596623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739099596623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. kayıt" />
     <MESSAGE value="2. kayıt(api şifresi gizlendi)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. kayıt(api şifresi gizlendi)" />
+    <MESSAGE value="3.kayıt requiremets.txt ve setup.txt eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.kayıt requiremets.txt ve setup.txt eklendi" />
   </component>
 </project>
