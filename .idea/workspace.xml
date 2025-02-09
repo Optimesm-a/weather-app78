@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="4.kayıt requriments.txt silinip yeniden eklendi" />
+    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="5.kayıt site arayüzü tablo haline getirilip düzenlendi">
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739099835214</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5.kayıt site arayüzü tablo haline getirilip düzenlendi">
+      <option name="closed" value="true" />
+      <created>1739100392630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739100392630</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +140,7 @@
     <MESSAGE value="2. kayıt(api şifresi gizlendi)" />
     <MESSAGE value="3.kayıt requiremets.txt ve setup.txt eklendi" />
     <MESSAGE value="4.kayıt requriments.txt silinip yeniden eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.kayıt requriments.txt silinip yeniden eklendi" />
+    <MESSAGE value="5.kayıt site arayüzü tablo haline getirilip düzenlendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.kayıt site arayüzü tablo haline getirilip düzenlendi" />
   </component>
 </project>
