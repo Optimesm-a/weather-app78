@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="3.kayıt requiremets.txt ve setup.txt eklendi">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="4.kayıt requriments.txt silinip yeniden eklendi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739099596623</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4.kayıt requriments.txt silinip yeniden eklendi">
+      <option name="closed" value="true" />
+      <created>1739099824175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739099824175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4.kayıt requriments.txt silinip yeniden eklendi">
+      <option name="closed" value="true" />
+      <created>1739099835214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739099835214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +129,7 @@
     <MESSAGE value="1. kayıt" />
     <MESSAGE value="2. kayıt(api şifresi gizlendi)" />
     <MESSAGE value="3.kayıt requiremets.txt ve setup.txt eklendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.kayıt requiremets.txt ve setup.txt eklendi" />
+    <MESSAGE value="4.kayıt requriments.txt silinip yeniden eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.kayıt requriments.txt silinip yeniden eklendi" />
   </component>
 </project>
