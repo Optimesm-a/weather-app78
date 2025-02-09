@@ -78,3 +78,42 @@ tr:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.navbar {
+    background-color: #f0f0f0; /* Açık gri bir arka plan rengi */
+    padding: 10px; /* İç boşluk */
+    position: fixed; /* Sayfanın üstünde sabit kalmasını sağlar */
+    top: 0; /* En üstte konumlanır */
+    left: 0; /* En solda konumlanır */
+    width: 100%; /* Tam genişlik */
+    z-index: 100; /* Diğer öğelerin üzerinde görünmesini sağlar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti (isteğe bağlı) */
+}
+
+.navbar ul {
+    list-style: none; /* Madde işaretlerini kaldır */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Yatay olarak sırala */
+    justify-content: center; /* Ortala */
+}
+
+.navbar li {
+    margin: 0 10px; /* Sağa ve sola boşluk */
+}
+
+.navbar a {
+    text-decoration: none; /* Bağlantı alt çizgisini kaldır */
+    color: #333; /* Koyu gri bir renk */
+    padding: 5px 10px; /* İç boşluk */
+    border-radius: 5px; /* Köşeleri yuvarla (isteğe bağlı) */
+}
+
+/* İsteğe bağlı: Bağlantı üzerine gelindiğinde renk değiştir */
+.navbar a:hover {
+    background-color: #ddd; /* Biraz daha koyu gri bir arka plan */
+}
+
+main {
+    padding-top: 60px; /* Navigasyon çubuğunun yüksekliği kadar üst boşluk */
+}
