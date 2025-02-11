@@ -1,15 +1,30 @@
-{% extends 'layout.html' %}  {% block content %}  <div class="container">
-    <h1>Weather Information</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="{{ url_for('index') }}">Ana Sayfa</a></li>
+            <li><a href="#">Hava Durumu Analiz Tabloları</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1>Hava Durumu Bilgisi</h1>
 
-    <form action="/weather" method="POST">
-        <label for="city">Enter City:</label>
-        <input type="text" id="city" name="city" required>
-        <button type="submit">Get Weather</button>
-    </form>
+            <form method="POST">
+                <label for="city">Şehir Adı:</label>
+                <input type="text" id="city" name="city" required>
+                <button type="submit">Hava Durumunu Getir</button>
+            </form>
 
-    {% if error %}
-        <p class="error">{{ error }}</p>
-    {% endif %}
-</div>
-{% endblock %}
-
+            {% if error %}
+                <p class="error">{{ error }}</p>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

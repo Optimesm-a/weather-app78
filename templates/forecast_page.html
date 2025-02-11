@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>Hava Durumu Analiz Tabloları</h1>
+
+    <button id="grafik-goster">Hava Durumu Grafiğini Göster</button>
+
+    <div id="grafik-alani" style="display: none;">
+        {% if plot_url %}
+            <img src="{{ url_for('static', filename=plot_url) }}" alt="Hava Durumu Grafiği">
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    const grafikGosterButonu = document.getElementById('grafik-goster');
+    const grafikAlani = document.getElementById('grafik-alani');
+
+    grafikGosterButonu.addEventListener('click', function() {
+        grafikAlani.style.display = 'block';
+        grafikGosterButonu.style.display = 'none';
+    });
+</script>
+{% endblock %}

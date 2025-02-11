@@ -8,12 +8,12 @@
     <nav class="navbar">
         <ul>
             <li><a href="{{ url_for('index') }}">Ana Sayfa</a></li>
-            <li><a href="#">Hava Durumu Analiz Tabloları </a></li>
+            <li><a href="{{ url_for('forecast_page') }}">Hava Durumu Analiz Tabloları</a></li> {# Yeni bağlantı #}
         </ul>
     </nav>
     <main>
         {% block content %}
-        {% endblock %}
+        {% endblock %} {# İçerik buraya gelecek #}
     </main>
 </body>
 </html>
