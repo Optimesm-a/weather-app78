@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="5.kayıt site arayüzü tablo haline getirilip düzenlendi">
-      <change afterPath="$PROJECT_DIR$/templates/forecast_page.html" afterDir="false" />
+    <list default="true" id="09be924b-b7c9-4605-bf5c-6098eb4bb13f" name="Changes" comment="grafik analizleri eklenmeye çalışıldı fakat sitede hata alınıyor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/forecast_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forecast_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739100392630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="grafik analizleri eklenmeye çalışıldı fakat sitede hata alınıyor">
+      <option name="closed" value="true" />
+      <created>1739287467755</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739287467755</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +187,7 @@
     <MESSAGE value="3.kayıt requiremets.txt ve setup.txt eklendi" />
     <MESSAGE value="4.kayıt requriments.txt silinip yeniden eklendi" />
     <MESSAGE value="5.kayıt site arayüzü tablo haline getirilip düzenlendi" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.kayıt site arayüzü tablo haline getirilip düzenlendi" />
+    <MESSAGE value="grafik analizleri eklenmeye çalışıldı fakat sitede hata alınıyor" />
+    <option name="LAST_COMMIT_MESSAGE" value="grafik analizleri eklenmeye çalışıldı fakat sitede hata alınıyor" />
   </component>
 </project>
