@@ -117,3 +117,39 @@ tr:hover {
 main {
     padding-top: 60px; /* Navigasyon çubuğunun yüksekliği kadar üst boşluk */
 }
+/* style.css */
+#current-weather {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#current-weather p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#current-weather p strong {
+    font-weight: bold;
+}
+#geri-don-butonu {
+  position: absolute; /* Mutlak konumlandırma */
+  bottom: 20px; /* Alt kenardan 20 piksel yukarıda */
+  right: 20px; /* Sağ kenardan 20 piksel solda */
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkorchid;
+}

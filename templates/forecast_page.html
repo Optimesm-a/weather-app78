@@ -1,11 +1,46 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hava Durumu Tahmini</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
 
-{% block content %}
-<div class="container">
-    <h1>Hava Durumu Analiz Tabloları</h1>
 
-    {% if plot_url %}
-        <img src="data:image/png;base64,{{ plot_url }}" alt="Hava Durumu Grafiği">
-    {% endif %}
-</div>
-{% endblock %}
+    <div id="current-weather">
+        {% if current_weather %}
+            <p><i class="fas fa-thermometer-alt"></i> Sıcaklık: {{ current_weather.temp }}°C</p>
+            <p><i class="fas fa-cloud-sun"></i> Hava Durumu: {{ current_weather.description }}</p>
+            <p><i class="fas fa-wind"></i> Rüzgar: {{ current_weather.wind }} m/s</p>
+            <p><i class="fas fa-tint"></i> Nem: {{ current_weather.humidity }}%</p>
+        {% endif %}
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tarih</th>
+                <th>Ortalama Sıcaklık (°C)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for date, temp in avg_temps.items() %}
+            <tr>
+                <td>{{ date }}</td>
+                <td>{{ temp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h1>{{ city }} için 5 Günlük Hava Durumu Tahmini</h1>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Hava Durumu Grafiği">
+
+    <div id="geri-don-butonu">
+  <button onclick="window.location.href='/'">Geri Dön</button>
+   </div>
+
+</body>
+</html>
