@@ -16,6 +16,8 @@ WEATHER_API_KEY="""buraya_senin_api_anahtarın"""
 
 Bu dosya, hava durumu API'sini kullanmak için gereklidir.
 
+
+
 ---
 
 ## 3️⃣ Uygulamayı Çalıştırma

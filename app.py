@@ -69,7 +69,21 @@ def forecast_page():
         plot_url = base64.b64encode(img.getvalue()).decode()
         plt.close() # Hafızayı boşalt
 
-        return render_template('forecast_page.html', city=city, plot_url=plot_url)
+        # Anlık hava durumu verisi için API isteği
+        current_weather_url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
+        current_weather_response = requests.get(current_weather_url)
+        current_weather_response.raise_for_status()
+        current_weather_data = current_weather_response.json()
+
+        # Anlık hava durumu bilgilerini al
+        current_weather = {
+            'temp': current_weather_data['main']['temp'],
+            'description': current_weather_data['weather'][0]['description'],
+            'wind': current_weather_data['wind']['speed'],
+            'humidity': current_weather_data['main']['humidity']
+        }
+
+        return render_template('forecast_page.html', city=city, plot_url=plot_url, avg_temps=avg_temps, current_weather=current_weather)
 
     except requests.exceptions.RequestException as e:
         return render_template('index.html', error=f"Hava durumu verisi alınırken hata oluştu: {e}")
@@ -78,4 +92,3 @@ def forecast_page():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
